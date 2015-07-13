@@ -1,0 +1,254 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+
+
+
+<meta name="keywords" content="Quest, Photography, Photo Images, Responsive, Business, Corporate, Gallery, Notebook" />
+<meta name="description" content="Quest" />
+<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;" />
+<link href="style.css" rel="stylesheet" type="text/css" />
+<link href="js/superfish/superfish.css" rel="stylesheet" type="text/css" media="screen" />
+<link href="js/fancybox/jquery.fancybox-1.3.4.css" rel="stylesheet" type="text/css" />
+<link href="settings/styling.css" rel="stylesheet" type="text/css" />
+<link rel="alternate" type="application/rss+xml" title="#" href="#" />
+<link rel="shortcut icon" href="#" />
+<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="js/nav-small.js"></script>
+<script type="text/javascript" src="js/scrolltop.js"></script>
+<script type="text/javascript" src="js/flickr/jflickrfeed.min.js"></script>
+<script type="text/javascript" src="js/flickr/setup.js"></script>
+<script type="text/javascript" src="js/fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
+<script type="text/javascript" src="js/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+<script type="text/javascript" src="js/fancybox/jquery.fancybox-1.3.4.js"></script>
+<script type="text/javascript" src="js/superfish/superfish.js"></script>
+<script type="text/javascript" src="js/jquery.cycle.all.js"></script>
+<script type="text/javascript" src="js/tipsy/jquery.tipsy.js"></script>
+<script type='text/javascript'>
+	$(function() {    
+		$('.sociable li a img').tipsy({gravity: 'n'});		
+	});
+</script>
+<script type="text/javascript" src="js/selectbox.js"></script>
+<script type="text/javascript" src="js/css3-mediaqueries.js"></script>
+<script type="text/javascript" src="js/hover.js"></script>
+<script type="text/javascript" src="js/jquery.tweet.js"></script>
+<script type="text/javascript">
+	jQuery(function($){
+		$("#tweet").tweet({
+			avatar_size: 32,
+			count: 2,
+		query: "themeforest",
+		loading_text: "Loading Tweets..."
+		});
+	});
+</script>
+<title>VRMT</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head>
+<body>
+<div class="container-wrap" id="cap"></div>
+<!--HEADER-->
+<div id="header" class="clear">
+  <div class="header-wrapper">
+    <!--LOGO-->
+    <div class="logo">
+      <h1><a href="index.html"><img src="img/logo1.png" alt="" title="" /></a></h1>
+    </div>
+    <!--MENU-->
+    <nav id="main-nav-menu">
+     <ul class="sf-menu">
+        <li class="active" style="font-family: 微软雅黑" ><a href="../index.htm"><strong>主页</strong></a>  </li>
+       
+        <li style="font-family: 微软雅黑"> <a href="research.html"><strong>科学研究</strong></a> </li>
+        
+        <li style="font-family: 微软雅黑"> <a href="people.html"><strong>研究团队</strong></a></li>
+           
+        
+        <li style="font-family: 微软雅黑"><a href="papers.html"><strong>论文</strong></a></li>
+           
+          
+        
+        <li style="font-family: 微软雅黑"><a href="contact.html"><strong>联系我们</strong></a></li>
+      </ul>
+    </nav>
+    <!-- end menu -->
+    <select id="responsive-main-nav-menu" onchange="javascript:window.location.replace(this.value);">
+    </select>
+  </div>
+  <div class="clear"></div>
+</div>
+<!--WELCOME-->
+<div class="heading-top">
+  <h2>科研成果</span></h2>
+</div>
+<!--SITE CONTAINER-->
+<div id="container">
+  <!--SITE CONTENTS-->
+  <div id="contents" class="clear">
+    <!--MAIN CONTENT-->
+    <div class="main-content">
+      <!--BLOG PAGE-->
+      <div class="welcome">
+        <h2>立体/多视点视频简介</h2>
+        <p style="font-size:14px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;传统单视点视频是由单个摄像机拍摄某一场景得到的视频信号，摄像机的拍摄角度在某一时刻是固定不变的。立体视频一般由两个视点组成，它是根据人眼的双目视差原理，在播放时通过显示从略微不同的角度采集到的同一场景的两个视图，分别对应人的两只眼睛，形成双目视差，并依靠人的大脑将这些视频融合成一幅有意义的二维图像，从而形成立体感。</p>
+        <p style="font-size:14px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 当前各种单视点编码技术的进步虽然提高了视频图像的质量和编码效率，但在根本上仍然没有改变场景的平面描述形式。而多视点视频则是由摄像机阵列从不同角度拍摄同一场景得到的一组视频信号，与单视点视频相比，多视点视频能够获取场景的三维信息，从而更加生动地再现立体场景。可以预见，多视点视频将在影视、医疗、远程遥测遥控、虚拟现实等方面拥有广阔的应用前景。</p>
+      </div>
+      <!--NOTIFY-->
+       
+      <!--BLOG-->
+      <div class="blog-list clear">
+        <ul>
+          <li class="br-bot">
+          <p style="font-size:16px"><strong>基于运动/视差联合估计的差错控制</strong></p>
+          <p style="font-size:14px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;鉴于视点间的颜色差异会降低视点间的相似度，影响预测图像的准确性，本项目采用颜色补偿策略实现多视点的颜色校正，提高基于视差估计关键帧编码性能。其中红色表示参考视点，蓝色表示编码视点。</p> 
+            <div class="img-head"> <img src="img/research/soccerYUV.jpg" alt="" title="" />
+              <h5> soccer序列颜色校正前相邻视点的Y/U/V分量的直方图 </h5>
+          
+            </div>
+            <div class="img-head"> <img src="img/research/soccerYUV-after.jpg" alt="" title="" />
+              <h5> soccer序列颜色校正后相邻视点的Y/U/V分量的直方图 </h5>
+          
+            </div>
+            <div class="details-share clear">
+              <!--POST DETAILS-->
+              </div> 
+             </li>
+             </ul>
+          
+        <ul>
+          <li class="br-bot">
+          <p style="font-size:16px"> </p>
+          <p>  </p> 
+            <div class="img-head"> <img src="img/research/race.jpg" alt="" title="" />
+              <h5> Race序列的相邻视点图像及颜色校正后对比结果 </h5>
+            </div>
+            <div class="img-head"> <img src="img/research/soccer-race.jpg" alt="" title="" />
+              <h5>Soccer序列和Race序列颜色校正前后图像编码效率对比</h5>
+            </div>
+             <div class="img-head"> <img src="img/research/exit1.jpg" alt="" title="" />
+              
+            </div>
+             <div class="img-head"> <img src="img/research/exit2.jpg" alt="" title="" />
+              <h5>Exit序列视点2第11帧整帧丢失后的差错掩盖效果对比</h5>
+            </div>
+            
+             <div class="img-head"> <img src="img/research/puppy1.jpg" alt="" title="" />
+              
+            </div>
+             <div class="img-head"> <img src="img/research/puppy2.jpg" alt="" title="" />
+              <h5>puppy序列视点2第5帧整帧丢失后的差错掩盖效果对比</h5>
+            </div>
+            <div class="details-share clear">
+              <!--POST DETAILS--> 
+            </div> 
+          </li> 
+        </ul> 
+        <ul>
+          <li class="br-bot">
+          <p style="font-size:16px"><strong>基于视点合成预测的差错控制</strong></p>
+          <p style="font-size:14px"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;多视点视频编码不仅需要较高的编码效率，同时需要视点间有较好的可伸缩性能，以满足视点间随机访问的能力。但是基于运动/视差联合估计的多视点视频编码框架在这两方面的性能都不够优越，主要表现在：(a)基于块匹配的视差估计对视点间信息冗余的消除能力有限，制约了多视点视频编码框架的整体性能；(b)此编码框架视点间的相互依赖性较大，影响了视点的分级伸缩性能。</p> 
+           <p style="font-size:14px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;为了兼顾多视点的编码效率和多视点的视点伸缩性能，一种基于视点合成预测的多视点视频编码框架将多个视点分为基本视点和增强视点，并利用各个视点的纹理信息提取出基本视点的深度图，再使用标准的编码技术对基本视点纹理图像和基本视点深度图像分别进行编码。增强视点编码时，首先使用3-D Warping技术利用基本视点纹理图像和深度图像生成增强视点的投影预测图像；然后对增强层预测残差使用标准的编码技术编码，以进一步消除投影预测残差间的信息冗余。此编码框架提供了增强层视点的任意存取性能，同时编码效率高于联合运动/视差估计的多视点视频编码框架。其编码效果如下图所示。</p> 
+            <div class="img-head"> <img src="img/research/ballet.jpg" alt="" title="" />
+              <h5>Ballet序列视点4第1帧图像到相邻视点的合成图像</h5>
+            </div>
+            <div class="img-head"> <img src="img/research/Breakdancers.jpg" alt="" title="" />
+              <h5> Breakdancers序列视点4第1帧图像到相邻视点的合成图像故障 </h5> 
+            </div>
+            <div class="img-head"> <img src="img/research/cam2-4.jpg" alt="" title="" />
+              <h5> cam2和cam4参考视点的彩色图像及深度图像</h5> 
+            </div>
+            <div class="img-head"> <img src="img/research/cam3.jpg" alt="" title="" />
+              <h5>合成的虚拟中间视点图像（cam3）</h5> 
+            </div>
+            <div class="details-share clear">
+              <!--POST DETAILS--> 
+            </div> 
+          </li> 
+        </ul>
+      </div>
+      <!--PAGE NAVIGATION-->
+      <div class="pagination clear">  
+         
+      </div>
+    </div>
+    <!--SIDEBAR-->
+     <div class="sidebar">
+      <!--SEARCH-->
+       
+      <!--SOCIABLE-->
+      <div class="sociable">
+        <h5>友情链接<span class="arrow">&nbsp;</span></h5>
+        <ul class="clear">
+          
+          <li><a href="#"><img src="img/icons/facebook.png" alt="" title="Facebook" /></a></li>
+          <li><a href="#"><img src="img/icons/twitter.png" alt="" title="Twitter" /></a></li>
+          <li><a href="#"><img src="img/icons/gplus.png" alt="" title="Google Plus" /></a></li>
+        
+          <li class="last"><a href="#"><img src="img/icons/flickr.png" alt="" title="Flickr" /></a></li>
+        </ul>
+      </div>
+      <!--CATEGORIES-->
+      <div class="categories">
+        <h5>站点链接<span class="arrow">&nbsp;</span></h5>
+        
+        <li style="font-size:15px"><a href="http://www.swjtu.edu.cn/">西南交通大学</a></li>
+        <li style="font-size:15px"><a href="http://sist.swjtu.edu.cn/">信息科学与技术学院</a></li>
+        <li style="font-size:15px"><a href="http://ieeexplore.ieee.org/Xplore/dynhome.jsp">IEEE全文数据库</a></li>
+        <li style="font-size:15px"><a href="http://www.edu.cnki.net/">CNKI全文数据库</a></li></ul>
+        <li style="font-size:15px"><a href="http://cs.gmu.edu/%7Ejchen/graphics.html">GMU Graphics Lab</a></li>
+           
+       
+      </div>
+      <!--SIDEBAR PARAGRAPH-->
+      <div class="side-paragraph">
+        <h5>Side Paragraph <img src="img/simage.jpg" alt="" title="" /><span class="arrow">&nbsp;</span></h5>
+        <div>
+          
+        </div>
+      </div>
+      <!--FLCKR PHOTOS-->
+       
+    </div>
+  </div>
+</div>
+<!--Footer-->
+ 
+  <!--FOOTER-->
+  <div id="footer-bot">
+    <div class="footer-wrapper">
+       <label style="font-size:18px">Copyright&copy;2013 西南交通大学虚拟现实与多媒体技术实验室 All Rights Reserved.<br>
+地址:成都市高新区西部园区西南交通大学09423# 09424#房间&nbsp;<br>电话：028-87600744&nbsp;&nbsp;8760776<br>Email：wuxiaohk@gmail.com<br /></a></label>
+    </div>
+  </div>
+</div>
+<a href="#" id="toTop">&uarr;</a>
+<script type="text/javascript" src="js/custom.js"></script>
+<!--FOR PREVIEW ONLY-->
+<script type="text/javascript" src="settings/styleswitch.js"></script>
+<div><span class="door"><img src="settings/img/setting.png" alt="" title="" /></span></div>
+<div class="options"> <span class="close"><img src="settings/img/close.png" alt="" title="" /></span>
+  <h4>Background Patterns</h4>
+  <ul>
+    <li><a href="#" id="styles" class="styleswitch" title="pt-1" style="background-image: url('img/patterns/body-bg.png');"></a></li>
+    <li><a href="#" id="styles2" class="styleswitch" title="pt-2" style="background-image: url('img/patterns/1.png');"></a></li>
+    <li><a href="#" id="styles3" class="styleswitch" title="pt-3" style="background-image: url('img/patterns/2.png');"></a></li>
+    <li><a href="#" id="styles4" class="styleswitch" title="pt-4" style="background-image: url('img/patterns/3.png');"></a></li>
+    <li><a href="#" id="styles5" class="styleswitch" title="pt-5" style="background-image: url('img/patterns/4.png');"></a></li>
+    <li><a href="#" id="styles6" class="styleswitch" title="pt-6" style="background-image: url('img/patterns/5.png');"></a></li>
+    <li><a href="#" id="styles7" class="styleswitch" title="pt-7" style="background-image: url('img/patterns/6.png');"></a></li>
+    <li><a href="#" id="styles8" class="styleswitch" title="pt-8" style="background-image: url('img/patterns/7.png');"></a></li>
+    <li><a href="#" id="styles9" class="styleswitch" title="pt-9" style="background-image: url('img/patterns/8.png');"></a></li>
+    <li><a href="#" id="styles10" class="styleswitch" title="pt-10" style="background-image: url('img/patterns/9.png');"></a></li>
+    <li><a href="#" id="styles11" class="styleswitch" title="pt-11" style="background-image: url('img/patterns/10.png');"></a></li>
+    <li><a href="#" id="styles12" class="styleswitch" title="pt-12" style="background-image: url('img/patterns/11.png');"></a></li>
+  </ul>
+  
+</div>
+<!--ENDS HERE-->
+
+</body>
+</html>
+
+
+

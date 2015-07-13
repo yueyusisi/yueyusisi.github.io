@@ -1,0 +1,218 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+
+
+
+<meta name="keywords" content="Quest, Photography, Photo Images, Responsive, Business, Corporate, Gallery, Notebook" />
+<meta name="description" content="Quest" />
+<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;" />
+<link href="style.css" rel="stylesheet" type="text/css" />
+<link href="js/superfish/superfish.css" rel="stylesheet" type="text/css" media="screen" />
+<link href="js/fancybox/jquery.fancybox-1.3.4.css" rel="stylesheet" type="text/css" />
+<link href="settings/styling.css" rel="stylesheet" type="text/css" />
+<link rel="alternate" type="application/rss+xml" title="#" href="#" />
+<link rel="shortcut icon" href="#" />
+<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="js/nav-small.js"></script>
+<script type="text/javascript" src="js/scrolltop.js"></script>
+<script type="text/javascript" src="js/flickr/jflickrfeed.min.js"></script>
+<script type="text/javascript" src="js/flickr/setup.js"></script>
+<script type="text/javascript" src="js/fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
+<script type="text/javascript" src="js/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+<script type="text/javascript" src="js/fancybox/jquery.fancybox-1.3.4.js"></script>
+<script type="text/javascript" src="js/superfish/superfish.js"></script>
+<script type="text/javascript" src="js/jquery.cycle.all.js"></script>
+<script type="text/javascript" src="js/tipsy/jquery.tipsy.js"></script>
+<script type='text/javascript'>
+	$(function() {    
+		$('.sociable li a img').tipsy({gravity: 'n'});		
+	});
+</script>
+<script type="text/javascript" src="js/selectbox.js"></script>
+<script type="text/javascript" src="js/css3-mediaqueries.js"></script>
+<script type="text/javascript" src="js/hover.js"></script>
+<script type="text/javascript" src="js/jquery.tweet.js"></script>
+<script type="text/javascript">
+	jQuery(function($){
+		$("#tweet").tweet({
+			avatar_size: 32,
+			count: 2,
+		query: "themeforest",
+		loading_text: "Loading Tweets..."
+		});
+	});
+</script>
+<title>VRMT</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head>
+<body>
+<div class="container-wrap" id="cap"></div>
+<!--HEADER-->
+<div id="header" class="clear">
+  <div class="header-wrapper">
+    <!--LOGO-->
+    <div class="logo">
+      <h1><a href="index.html"><img src="img/logo1.png" alt="" title="" /></a></h1>
+    </div>
+    <!--MENU-->
+    <nav id="main-nav-menu">
+       <ul class="sf-menu">
+        <li class="active" style="font-family: 微软雅黑" ><a href="../index.htm"><strong>主页</strong></a>  </li>
+       
+        <li style="font-family: 微软雅黑"> <a href="research.html"><strong>科学研究</strong></a> </li>
+        
+        <li style="font-family: 微软雅黑"> <a href="people.html"><strong>研究团队</strong></a></li>
+           
+        
+        <li style="font-family: 微软雅黑"><a href="papers.html"><strong>论文</strong></a></li>
+           
+          
+        
+        <li style="font-family: 微软雅黑"><a href="contact.html"><strong>联系我们</strong></a></li>
+      </ul>
+    </nav>
+    <!-- end menu -->
+    <select id="responsive-main-nav-menu" onchange="javascript:window.location.replace(this.value);">
+    </select>
+  </div>
+  <div class="clear"></div>
+</div>
+<!--WELCOME-->
+<div class="heading-top">
+  <h2>科研成果</span></h2>
+</div>
+<!--SITE CONTAINER-->
+<div id="container">
+  <!--SITE CONTENTS-->
+  <div id="contents" class="clear">
+    <!--MAIN CONTENT-->
+    <div class="main-content">
+      <!--BLOG PAGE-->
+      <div class="welcome">
+        <h2>公路收费站车辆及收费信息远程监控平台</h2>
+        <p style="font-size:14px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;如何确保各级公路收费站公平、公正收费，有效防止逃票、漏票、司机收费员协同作弊等违法犯罪行为是国家收费管理部门的一项重要方针和政策。但由于目前尚未形成一个统一的远程监控平台，省市级各主管部门无法实时掌握各收费站收费情况，仅能依靠其内部进行监督反馈，从而造成该项工作存在漏洞。本项目以广东省揭阳市下属两个公路收费站为试点单位，实现了远程实时监控（车道及收费亭工作视频流、来往车辆抓拍照片、实时收费信息）、与收费情况的实时对比监控、以及事后查询调阅，取得了较好成效。</p>
+      </div>
+      <!--NOTIFY-->
+       
+      <!--BLOG-->
+      <div class="blog-list clear">
+        <ul>
+          <li class="br-bot">
+          <p style="font-size:16px"><strong>平台功能</strong></p>
+          <p style="font-size:14px"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;监控软件包含服务器端和远程监控端两个部分。功能包括：</br>1)服务器端：定时探测车道工作状态并刷新远程监控端；实时判断在线监控用户状态以启动远程监控端车道轮转；对各注册收费站所有收费工作通道进行24小时无间断的车辆（目前只提供已收费车辆）检测拍照，实时记录拍照照片并连同收费信息入库保存；对各通道收费亭及车道视频流采用最新H.264视频编解码算法压缩保存，同时向远程监控端提供连续视频及数据信号；为远程监控端调阅以往视频录像及收费信息提供稳定的FTP和数据库连接；本地任意时间段车道及收费站视频的同步检索播放；较好应对网线拔出等恶性操作，支持开机自动加载、自动锁定，自动管理录像数据，退出自动通知所有在线远程端用户。</br> </br>2)远程监控端：提供每次双车道及收费亭（可放大）的视频、收费信息、车道工作情况的实时同步显示；历史视频录像的远程检索回放（提供单次单车道及收费亭在过去任意有效时间段的录像下载和同步播放）；本地任意时间段车道及收费站视频同步检索播放；收费记录查询及对应视频录像抽取并同步播放；不同收费站及同一收费站不同车道间快速准确切换；当前监控车道可设置（依据在线监控用户权限）、可自动轮转（主动判断监控状态并与服务器端交互完成）；特殊视频记录保存；系统用户权限管理；视频显示质量参数设置。</p> 
+            <div class="img-head"> <img src="img/research/guangdongda.jpg" alt="" title="" />
+              <h5>服务器端截图 </h5>
+          
+            </div>
+            <div class="img-head"> <img src="img/research/guangdong-121.JPG" alt="" title="" />
+              <h5>远程端截图一 </h5>
+          
+            </div>
+             
+            <div class="img-head"> <img src="img/research/guangdong-122.JPG" alt="" title="" />
+              <h5>远程端截图二</h5>
+          
+            </div>
+            <div class="img-head"> <img src="img/research/视频回放.JPG" alt="" title="" />
+              <h5>视频回放模块 </h5>
+          
+            </div>
+             <div class="img-head"> <img src="img/research/收费画面和数据对应.JPG" alt="" title="" />
+              <h5>收费数据与图像对应画面</h5>
+          
+            </div>
+             <div class="img-head"> <img src="img/research/信息检索.JPG" alt="" title="" />
+              <h5>数据库检索界面 </h5> 
+            </div> 
+             </li>
+             </ul>
+          
+        
+         
+      </div>
+      <!--PAGE NAVIGATION-->
+      <div class="pagination clear">  
+         
+      </div>
+    </div>
+    <!--SIDEBAR-->
+     <div class="sidebar">
+      <!--SEARCH-->
+       
+      <!--SOCIABLE-->
+      <div class="sociable">
+        <h5>友情链接<span class="arrow">&nbsp;</span></h5>
+        <ul class="clear">
+          
+          <li><a href="#"><img src="img/icons/facebook.png" alt="" title="Facebook" /></a></li>
+          <li><a href="#"><img src="img/icons/twitter.png" alt="" title="Twitter" /></a></li>
+          <li><a href="#"><img src="img/icons/gplus.png" alt="" title="Google Plus" /></a></li>
+        
+          <li class="last"><a href="#"><img src="img/icons/flickr.png" alt="" title="Flickr" /></a></li>
+        </ul>
+      </div>
+      <!--CATEGORIES-->
+      <div class="categories">
+        <h5>站点链接<span class="arrow">&nbsp;</span></h5>
+        
+        <li style="font-size:15px"><a href="http://www.swjtu.edu.cn/">西南交通大学</a></li>
+        <li style="font-size:15px"><a href="http://sist.swjtu.edu.cn/">信息科学与技术学院</a></li>
+        <li style="font-size:15px"><a href="http://ieeexplore.ieee.org/Xplore/dynhome.jsp">IEEE全文数据库</a></li>
+        <li style="font-size:15px"><a href="http://www.edu.cnki.net/">CNKI全文数据库</a></li></ul>
+        <li style="font-size:15px"><a href="http://cs.gmu.edu/%7Ejchen/graphics.html">GMU Graphics Lab</a></li>
+           
+       
+      </div>
+      <!--SIDEBAR PARAGRAPH-->
+      <div class="side-paragraph">
+        <h5>Side Paragraph <img src="img/simage.jpg" alt="" title="" /><span class="arrow">&nbsp;</span></h5>
+        <div>
+          
+        </div>
+      </div>
+      <!--FLCKR PHOTOS-->
+       
+    </div>
+  </div>
+</div>
+<!--Footer-->
+ 
+  <!--FOOTER-->
+  <div id="footer-bot">
+    <div class="footer-wrapper">
+       <label style="font-size:18px">Copyright&copy;2013 西南交通大学虚拟现实与多媒体技术实验室 All Rights Reserved.<br>
+地址:成都市高新区西部园区西南交通大学09423# 09424#房间&nbsp;<br>电话：028-87600744&nbsp;&nbsp;8760776<br>Email：wuxiaohk@gmail.com<br /></a></label>
+    </div>
+  </div>
+</div>
+<a href="#" id="toTop">&uarr;</a>
+<script type="text/javascript" src="js/custom.js"></script>
+<!--FOR PREVIEW ONLY-->
+<script type="text/javascript" src="settings/styleswitch.js"></script>
+<div><span class="door"><img src="settings/img/setting.png" alt="" title="" /></span></div>
+<div class="options"> <span class="close"><img src="settings/img/close.png" alt="" title="" /></span>
+  <h4>Background Patterns</h4>
+  <ul>
+    <li><a href="#" id="styles" class="styleswitch" title="pt-1" style="background-image: url('img/patterns/body-bg.png');"></a></li>
+    <li><a href="#" id="styles2" class="styleswitch" title="pt-2" style="background-image: url('img/patterns/1.png');"></a></li>
+    <li><a href="#" id="styles3" class="styleswitch" title="pt-3" style="background-image: url('img/patterns/2.png');"></a></li>
+    <li><a href="#" id="styles4" class="styleswitch" title="pt-4" style="background-image: url('img/patterns/3.png');"></a></li>
+    <li><a href="#" id="styles5" class="styleswitch" title="pt-5" style="background-image: url('img/patterns/4.png');"></a></li>
+    <li><a href="#" id="styles6" class="styleswitch" title="pt-6" style="background-image: url('img/patterns/5.png');"></a></li>
+    <li><a href="#" id="styles7" class="styleswitch" title="pt-7" style="background-image: url('img/patterns/6.png');"></a></li>
+    <li><a href="#" id="styles8" class="styleswitch" title="pt-8" style="background-image: url('img/patterns/7.png');"></a></li>
+    <li><a href="#" id="styles9" class="styleswitch" title="pt-9" style="background-image: url('img/patterns/8.png');"></a></li>
+    <li><a href="#" id="styles10" class="styleswitch" title="pt-10" style="background-image: url('img/patterns/9.png');"></a></li>
+    <li><a href="#" id="styles11" class="styleswitch" title="pt-11" style="background-image: url('img/patterns/10.png');"></a></li>
+    <li><a href="#" id="styles12" class="styleswitch" title="pt-12" style="background-image: url('img/patterns/11.png');"></a></li>
+  </ul>
+  
+</div>
+<!--ENDS HERE-->
+
+</body>
+</html>
+
+
+

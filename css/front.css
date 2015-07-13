@@ -1,0 +1,128 @@
+#content {
+	background:none;
+	padding:0px;
+	float:none;
+	width:auto;
+}
+/*   banner 
+-----------------------------------------*/
+#main-wrapper {background:none;}
+#main-wrapper #banner {display:block; height:407px; padding:27px 0px 0px;
+	background:url(../images/line-bg.gif) repeat-x bottom;
+}
+#main-wrapper #banner .intro {position:relative;display:block; float:left; width:285px; text-align:justify; line-height:28px;}
+#main-wrapper #banner .intro #what-is {}
+#main-wrapper #banner .intro img{ width:275px; height:58px; left:0px;}
+#main-wrapper #banner .intro span.title{font-size:18px; padding:20px 0px 0px 80px; font-family:'Questrial', arial, 'Helvetica', serif;
+	letter-spacing: normal!important;
+	font-weight: normal;
+	font-style: normal;
+}
+#main-wrapper #banner .intro .content {padding-top:20px;padding-left:10px; font-size:13px; line-height:25px;
+	padding-top: 5px;
+	padding-left: 10px;
+	font-family:"Segoe UI",Tahoma,Arial,Verdana,sans-serif;
+	font-size: 14px;
+	line-height: 22px;
+	text-shadow: 0 2px rgba(255, 255, 255, 0.5);
+}
+#main-wrapper #banner .gallery {
+	width:675px; 
+	float:right; margin:0px; padding:0px;
+	padding-bottom:30px; background:url(../images/gallery_shadow.png) no-repeat bottom center;
+}
+
+#main-wrapper #banner .gallery img {display:none;}
+
+/*   news 
+-----------------------------------------*/
+#content {	border-right:none;}
+#content .block-title{}
+#content .news-items {
+	width: 980px;
+	padding-bottom:20px;
+}
+#content .news-items li{
+	list-style-type:none;
+	height:300px; 
+	background:url(../images/box-bg.png) repeat-x;
+	display: inline-block;
+	margin: 0px 37px 0px 0px;
+	padding: 5px;
+	border: 1px solid #cbcbcb;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	float: left;
+	width: 205px;
+	/*box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.12);*/
+}
+#content .news-items li.last,
+#content .news-items li img{display:block; width: 200px; margin:5px auto;}
+#content .news-items li:hover {
+	-moz-box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.42);
+	-webkit-box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.42);
+	box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.22);
+	background:white;
+}
+#content .news-items li .news-date{ padding:0 2px;color:#A9A9A9; float:none!important; font-size:11px!important;}
+#content .news-items li .news-title{padding:0 3px;color:#4D5254; text-align:justify; line-height:18px;font-size:12px; font-weight:bold; padding-bottom:6px;}
+#content .news-items li .news-title span{font-size:13px; font-family:"微软雅黑";}
+#content .news-items li .news-body{padding:0 3px;font-size:10px; text-align:justify; line-height:18px; color:#696765;}
+#content .news-items li .news-body span{font-size:10px; }
+
+/**--for carousel--**/
+#content .news-items {
+	overflow: visible;
+}
+#content .jcarousel-clip{ overflow:hidden;}
+#content .recent-posts { width:980px; }
+
+
+#content .jcarousel-prev,
+#content .jcarousel-next{
+	background:url(../img/v-sprite.jpg) no-repeat;position: absolute;display:block;width: 31px;
+	cursor:pointer;
+	height: 60px;}
+	
+	
+#content .jcarousel-prev{
+	left: -30px;
+	top: 45%;
+	background-position:-32px 0px;
+}
+#content .jcarousel-next{
+	right: -30px;
+	top: 45%;
+	background-position:0px 0px;
+}
+#content .jcarousel-prev-disabled,
+#content .jcarousel-next-disabled{display:none !important;}*/
+/**--end for carousel--**/
+#content .intern-links {padding-top:20px;}
+#content .intern-links li{
+	list-style-type:none;
+	width:207px;
+	display: inline-block;
+	margin: 0px 37px 0px 0px;
+	padding: 5px;
+	position:relative;
+	height:130px;
+}
+#content .intern-links ul{margin-bottom:5px;}
+#content .intern-links li.last{margin-right:0px!important;}
+#content .intern-links li img{display:block;margin:0px auto; width:205px;}
+#content .intern-links li{position:relative;float:left;}
+#content .intern-links li a {position:relative;display:block;}
+#content .intern-links li a span {display:block;position:absolute;top: 60px;
+	left: 13px;
+	color: #F2F3F9;
+	font-size: 18px;}
+#content .intern-links li:hover img{
+	-moz-box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.42);
+	-webkit-box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.42);
+	box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.22);
+}
+
+#content .intern-links {}
+#content .cooperation-links {padding:20px 0px 10px 0;}
+#content .cooperation-links img{display:block; margin:0 auto; width: 450px;}

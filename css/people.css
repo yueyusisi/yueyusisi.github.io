@@ -1,0 +1,111 @@
+@CHARSET "UTF-8";
+
+#content {
+	padding: 10px 10px 20px 10px;
+	float: left;
+	width: 687px;
+	border-right: 1px solid #CDCDCD;
+}
+
+#main #content .header{display:block;}
+#main #content .header h1{ float:left; color:#6EA5DB;font-size:14px;}
+#main #content .header .operations {float:right;}
+#main #content .header .operations #print-the-page{
+	padding-left:18px;
+	background:url(../images/printicon.png) no-repeat left center;
+	
+}
+#main #content .header .operations #copy-emails{
+	padding-left:18px;margin-left:5px;
+	background:url(../images/emailicon.png) no-repeat left center;
+}
+
+#main #content .header .operations .btn-operation{
+	line-height:18px;
+}
+#main #content .header .operations .btn-operation:hover{
+	color:#DD4B39;
+}
+#main #content .header .operations a{ text-decoration:none; cursor:pointer;}
+/**------------University Header----------**/
+.university-header{padding:20px 0px 5px 0px;}
+.university-header .university{font-size:30px; font-weight:bold;display:block;width:50%; float:left; }
+.university-header .university img {margin-left:20px;}
+/**-------------people list---------------**/
+#main #content h1.title{ font-size:16px;font-weight:bold; padding:5px 0px 5px;}
+#main #content .view-grouping .view-grouping-header {
+	padding:3px 0px 3px 5px;
+	font-size:18px; font-weight:bold;
+	border-bottom:2px solid black;
+	margin-bottom:20px;
+}
+#main #content .item-list {margin-bottom:5px;}
+#main #content .item-list h3 { 
+	padding:3px 0px 3px 0px;
+	border-bottom:2px solid black;
+	margin-bottom:20px;
+	color:#444;
+	font-size:14px; font-weight:bold;
+	/*padding:3px 0px 3px 5px; background-color:#5292D0; color:white;*/
+}
+#main #content .item-list h3 a{color: #444;font-size:14px; font-weight:bold;}
+#main #content .item-list ul {margin:0px;}
+#main #content .item-list ul li{ margin-left:0px;list-style-type:none;}
+/*#main #content .node-people:hover .field-content{color:#990000;}*/
+.node-people {position:relative;
+	padding-bottom:13px!important;
+	margin-bottom:10px!important;
+	border-bottom:none!important;
+	width:330px; float:left;
+}
+.node-people .views-field {margin-left:95px;padding:2px 5px;}
+.node-people .views-field .views-label {float:left; font-weight:bold;}
+.node-people .views-field .field-content {line-height:18px; display: block;}
+.node-people .views-field .field div{ line-height:28px;}
+.node-people .views-field-field-avatar{float:left; margin-left:0px;border:1px #E7E7E7 solid; padding:5px; background:url(../images/img-bg.png);}
+.node-people .views-field-field-avatar .field-content {margin-left:0px;}
+.node-people .views-field-field-avatar img {border:1px #E7E7E7 solid; width:75px;height:75px;display: block;}
+
+.node-people .views-field-title {font-size:18px; padding-bottom:7px;}
+.node-people .views-field-field-organization,
+.node-people .views-field-field-title .field-content,
+.node-people .views-field-field-email .field-content{font-size:11px; line-height:14px;}
+
+.node-people .views-field-field-homepage { position:absolute; right:5px; bottom:15px;}
+.node-people .views-field-field-homepage a{ display:block; width:23px; height:28px;background:url(../images/homepage.png) left top no-repeat;}
+
+.node-people.views-row-even{margin-left:20px!important;}
+
+.node-people.other .views-field-field-organization { color:#5A9ED8;}
+.node-people.nus .views-field-field-organization{ color:#FF6600;}
+.node-people.tsh .views-field-field-organization{ color:#794FB2;}
+
+.node-people .views-field-field-title,
+.node-people .views-field-field-email { background-color:#f0f0f0;}
+
+.node-people.other:hover .views-field-field-title,
+.node-people.other:hover .views-field-field-avatar,
+.node-people.other:hover .views-field-field-email { background:#D7EBF2;}
+.node-people.nus:hover .views-field-field-title,
+.node-people.nus:hover .views-field-field-avatar,
+.node-people.nus:hover .views-field-field-email{background:#F3D7C1;}
+.node-people.tsh:hover .views-field-field-title,
+.node-people.tsh:hover .views-field-field-avatar,
+.node-people.tsh:hover .views-field-field-email{background:#EDD8F9;}
+
+.node-people .views-field-field-description { 
+	display:none;
+	position:absolute; 
+	padding:10px;
+	border: 1px solid #DDD;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	-webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.22);
+	-moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.22);
+	box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.22);
+	background-color: white;
+	z-index:100;
+}
+.node-people .views-field-field-description p{margin:0px!important; padding:0px;}
+

@@ -1,0 +1,189 @@
+body,html {margin:0;padding:0;}
+/*	Header
+--------------------------------------------------*/
+#page-wrapper {
+	background:url(../images/bg.png);
+}
+#header-wrapper {
+	display:block;
+	height:155px;
+	width:100%;
+	background:url(../img/header-bg.jpg) repeat-x;
+	border-bottom:1px solid white;
+}
+
+
+
+
+#header{
+	height:100%;
+	background:url(../images/header-bg.jpg) no-repeat bottom center;
+	 }
+	
+	
+	
+	
+	
+#header>.inner { width:980px; margin:0 auto; height:100%; position:relative; }
+#site-logo {position:absolute; top:20px;}
+/* main-menu
+----------------------------------------*/
+#main-menu { bottom:10px;margin: 0px auto;width:986px; position:relative; top:122px;}
+#main-menu ul {text-align: left; padding:0; margin:0; }
+#main-menu ul li {list-style-type:none;float:left; background:url(../images/menu_spt.png) no-repeat right center; display:inline-block; text-align:center; padding:2px 23px 2px 10px; margin:0px 2px; font-size:24px;}
+#main-menu ul li.last {background:none; padding-right:3px;}
+#main-menu ul li.last a{padding-right:0px;}
+#main-menu ul li:first-child a {padding-left:0px;}
+#main-menu ul li a {
+	padding: 5px 6px 18px 2px;;
+	/*color:#6C7175;*/
+	color:#444444;
+	font-size:20px;
+	font-family:'Droid Sans', helvetica, arial, sans-serif;
+	font-weight:bold;
+	text-decoration:none;
+	text-transform:uppercase;
+	text-shadow: 0 1px rgba(255, 255, 255, 0.5);
+	letter-spacing:1px;
+}
+
+#main-menu ul li a:hover,
+#main-menu ul li a:focus,
+#main-menu ul li a.active-trail,
+#main-menu ul li a.active {color:#F36F36;}
+
+/* main-wrapper
+----------------------------------------*/
+#main-wrapper{
+	padding:20px 0px 0px 0px;
+	display:block;
+	width:980px;
+	margin:0 auto;
+	background:url(../images/main-bg.png);
+}
+
+#sidebar{float:right;
+	width:250px;
+	padding:20px 10px 0 0;
+}
+
+#sidebar .content ul li {
+	padding: 0px 0px 0px 30px;
+	background: #E3E3E3 url(../images/arrow-sider.png) no-repeat 4px center;
+	margin-bottom:10px;
+	margin-left: 0px;
+}
+
+#sidebar .content ul li a{
+	font-size:13px;
+	font-weight:bold;
+	color: #696765;
+	padding:8px 0px;
+	display:block;
+}
+
+#sidebar .content ul li:hover,
+#sidebar .content ul li.active  {
+	background-color: #F8F8F8;
+}
+
+#sidebar .content ul li.leaf {
+	list-style-image:none;
+	list-style-type: none;
+}
+#sidebar h3{
+	background-color:#595454;
+	padding:12px 0px 12px 10px;
+	color:white;
+	font-weight:bold;
+	margin-bottom:10px;
+}
+#sidebar h3 a{
+	color:white;
+	text-decoration:none;	
+	font-weight:bold;
+}
+/* content
+----------------------------------------*/
+#content h2.title {margin-bottom:20px; text-align:center;text-shadow: 0 1px rgba(255, 255, 255, 0.5);font-weight: bold;}
+#content {
+	padding:10px 40px 20px 30px;
+	float:left;
+	width:637px;
+	border-right:1px solid #CDCDCD;
+}
+
+div.more {text-align:right;}
+
+#content .views-row {padding:0px 0px 10px 0px;
+	border-bottom:1px solid #d9d9d9;
+	margin-bottom:20px;
+}
+#content .views-row p {margin-bottom:5px;}
+
+#content .node-page p,
+#content .node p{text-align:justify;}
+#content .views-row .news-date {color: #B00;font-size: 14px; font-weight: bold; width:100px;float: left;}
+#content .views-row .title {font-size: 14px; padding: 5px 0px 15px 0px;}
+#content .view-news-events .views-row .news-date{float:left; display:block;width: 100px;}
+#content .view-news-events .views-row .title { padding:0px;margin-left:100px; display:block;}
+
+.node-type-news-events #page-title {margin-bottom:8px!important; text-align:center;}
+.node-type-news-events .node-news-events .field-name-field-news-date { margin-bottom:25px;text-align:center;}
+.node-type-news-events .field-name-body p img{ display:block;margin:0 auto;}
+.node-type-news-events .field-name-field-news-image .field-item{ padding-bottom:10px;}
+.node-type-news-events .field-name-field-news-image .field-item img{ text-align:center; display:block; margin:0 auto;}
+
+
+/* footer-wrapper
+----------------------------------------*/
+#footer-wrapper {
+	background-color:#4A4848;
+	padding-top:10px;
+}
+#footer-wrapper .middle-footer {padding:5px 0px;background:url(../images/bg_bottom.jpg); color:white;}
+#footer-wrapper .middle-footer h3 {color:#ABAAA9; font-weight:bold; margin-bottom:0px;padding-bottom:0px;}
+#footer-wrapper .middle-footer h2 {color:white; font-weight:bold;}
+#footer-wrapper .middle-footer table,
+#footer-wrapper .middle-footer tr { margin-bottom: 0px;background-color:transparent; border:0px;}
+#footer-wrapper .middle-footer td { vertical-align: top;border:0px; padding:0px!important; padding-top:0px;}
+#footer-wrapper .middle-footer .block{font-size:11px; color:#9FA0A0;float:left; height:135px; padding:0 13px; background:url(../images/bottom_line_ver.png) no-repeat top right;}
+#footer-wrapper .middle-footer .block em{color:#D6D5D6;}
+#footer-wrapper .middle-footer .block:first-child {padding-left:0px;}
+#footer-wrapper .middle-footer .block:last-child {background:none; padding-right:0px;}
+#footer-wrapper .middle-footer .inner p{
+	margin-bottom:10px;
+	line-height:18px;
+}
+#footer-wrapper .middle-footer>.inner{
+	width:980px;
+	margin:0 auto;
+}
+#footer-wrapper .bottom-footer {background:url(../images/bottom_black.jpg) repeat-x;}
+#footer-wrapper .bottom-footer .inner{
+	width:570px;
+	margin:0 auto;
+	color:white;
+}
+#footer-wrapper .social-links {padding-top:10px;}
+#footer-wrapper .social-links li {width:280px; font-size:20px;}
+#footer-wrapper .social-links li:hover a{ 
+	/*background-color: #EEE;
+	text-decoration: none;
+	outline: none;
+	-moz-outline: none;
+	border-radius: 8px;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;*/
+	background-position:2px -25px;
+	text-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+	
+}
+#footer-wrapper .social-links a{color:#ABAAA9; display:block; padding:3px 10px 3px 35px; margin-bottom:4px;}
+#footer-wrapper .social-links .facebook a{background:url(../images/share-facebook.png) no-repeat 2px 0px;}
+#footer-wrapper .social-links .linkedin a{background:url(../images/share-linkedin.png) no-repeat 2px 0px;}
+#footer-wrapper .social-links .twitter a{background:url(../images/share-twitter.png) no-repeat 2px 0px;}
+#footer-wrapper .social-links .google a{background:url(../images/share-google.png) no-repeat 2px 0px;}
+
+#footer-wrapper .contract-us {font-size:11px; width:380px}
+/* ---------- Basic Layout Styles ----------- */
