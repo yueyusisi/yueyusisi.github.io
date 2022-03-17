@@ -6,7 +6,8 @@ title:
   archives: Archives
   categories: Categories
   tags: Tags
-  about: About
+  # about: About
+  about: Publications
 
 author: Author
 
@@ -15,7 +16,8 @@ menu:
   archives: Archives
   categories: Categories
   tags: Tags
-  about: About
+  # about: About
+  about: Publications
   search: Search
   schedule: Schedule
   sitemap: Sitemap
