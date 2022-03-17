@@ -30,9 +30,12 @@
 
       <section class="site-overview sidebar-panel{% unless display_toc and toc.size > 1 %} sidebar-panel-active{% endunless %}">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
-          <img class="site-author-image" itemprop="image"
+          <!-- <img class="site-author-image" itemprop="image"
                src="{% assign default_avatar = site.images | append: '/avatar.gif' %}{{ site.avatar | default: default_avatar | relative_url }}"
-               alt="{{ site.author }}" />
+               alt="{{ site.author }}" /> -->
+             <img class="site-author-image" itemprop="image"
+             src="/documents/headicon.png"
+             alt="{{ site.author }}" />
           <p class="site-author-name" itemprop="name">{{ site.author }}</p>
            {% if site.seo %}
               <p class="site-description motion-element" itemprop="description">{{ site.signature }}</p>
@@ -93,6 +96,23 @@
         {% endif %}
 
         <div class="links-of-author motion-element">
+          <span class="links-of-author-item">
+            <a href="https://scholar.google.com/citations?user=LfDwyRYAAAAJ&hl=zh-CN" target="_blank" title="Google Scholar">
+              <i class="fa fa-google"></i>
+            </a>
+          </span>
+          <span class="links-of-author-item">
+            <a href="mailto:lijunxiu@my.swjtu.edu.cn" target="_blank" title="Email">
+              <i class="fa fa-envelope"></i>
+            </a>
+          </span>
+          <span class="links-of-author-item">
+            <a href="https://github.com/yueyusisi/" target="_blank" title="github">
+              <i class="fa fa-github-alt"></i>
+            </a>
+          </span>
+        </div>
+        <!-- <div class="links-of-author motion-element">
           {% if site.social %}
             {% for name_link in site.social %}
               {% assign name = name_link[0] %}
@@ -100,15 +120,17 @@
               <span class="links-of-author-item">
                 <a href="{{ link }}" target="_blank" title="{{ name }}">
                   {% if site.social_icons.enable %}
-                    <i class="fa fa-fw fa-{{ site.social_icons[name] | default: 'globe' | downcase }}"></i>
+                    <!-- <i class="fa fa-fw fa-{{ site.social_icons[name] | default: 'globe' | downcase }}"></i> -->
+                    <i class="fa-github-alt"></i>
                   {% endif %}
                   {{ name }}
                 </a>
               </span>
             {% endfor %}
           {% endif %}
-        </div>
+        </div> -->
 
+        <!-- <div>1234</div> -->
         {% assign cc = 'by, by-nc, by-nc-nd, by-nc-sa, by-nd, by-sa, zero' | split: ', ' %}
         {% if cc contains site.creative_commons %}
           <div class="cc-license motion-element" itemprop="license">
